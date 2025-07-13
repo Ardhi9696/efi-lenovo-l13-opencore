@@ -8,7 +8,7 @@
             <array>
                 <dict>
                     <key>Comment</key>
-                    <string></string>
+                    <string>DSDT.aml</string>
                     <key>Enabled</key>
                     <false/>
                     <key>Path</key>
@@ -158,15 +158,15 @@
             <array>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>Comment</key>
-                    <string>Skip Board ID check</string>
+                    <string>macOS to hacOS</string>
                     <key>Count</key>
-                    <integer>0</integer>
+                    <integer>1</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
-                    <data>AFAAbABhAHQAZgBvAHIAbQBTAHUAcABwAG8AcgB0AC4AcABsAGkAcwB0</data>
+                    <data>bWFjT1M=</data>
                     <key>Identifier</key>
                     <string>Apple</string>
                     <key>Limit</key>
@@ -174,7 +174,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>Replace</key>
-                    <data>AC4ALgAuAC4ALgAuAC4ALgAuAC4ALgAuAC4ALgAuAC4ALgAuAC4ALgAu</data>
+                    <data>aGFjT1M=</data>
                     <key>ReplaceMask</key>
                     <data></data>
                     <key>Skip</key>
@@ -267,70 +267,10 @@
                     <data>AACbPg==</data>
                     <key>AAPL,slot-name</key>
                     <string>Internal@0,2,0</string>
-                    <key>complete-modeset</key>
-                    <data>AQAAAA==</data>
-                    <key>complete-modeset-framebuffers</key>
-                    <data>AAAAAAAAAAE=</data>
                     <key>device-id</key>
                     <data>mz4AAA==</data>
-                    <key>device_type</key>
-                    <string>Display controller</string>
-                    <key>disable-external-gpu</key>
-                    <data>AQAAAA==</data>
-                    <key>enable-hdmi-dividers-fix</key>
-                    <data>AQAAAA==</data>
-                    <key>enable-hdmi20</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-con1-busid</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-con1-enable</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-con1-flags</key>
-                    <data>hwEAAA==</data>
-                    <key>framebuffer-con1-index</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-con1-pipe</key>
-                    <data>EgAAAA==</data>
-                    <key>framebuffer-con1-type</key>
-                    <data>AAgAAA==</data>
-                    <key>framebuffer-con2-busid</key>
-                    <data>AgAAAA==</data>
-                    <key>framebuffer-con2-enable</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-con2-flags</key>
-                    <data>hwEAAA==</data>
-                    <key>framebuffer-con2-index</key>
-                    <data>AgAAAA==</data>
-                    <key>framebuffer-con2-pipe</key>
-                    <data>EgAAAA==</data>
-                    <key>framebuffer-con2-type</key>
-                    <data>AAgAAA==</data>
-                    <key>framebuffer-con3-busid</key>
-                    <data>AAAAAA==</data>
-                    <key>framebuffer-con3-enable</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-con3-flags</key>
-                    <data>IAAAAA==</data>
-                    <key>framebuffer-con3-index</key>
-                    <data>/////w==</data>
-                    <key>framebuffer-con3-pipe</key>
-                    <data>AAAAAA==</data>
-                    <key>framebuffer-con3-type</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-fbmem</key>
-                    <data>AAAAAA==</data>
-                    <key>framebuffer-patch-enable</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-stolenmem</key>
-                    <data>AACQAw==</data>
-                    <key>framebuffer-unifiedmem</key>
-                    <data>AAAAgA==</data>
-                    <key>hda-gfx</key>
-                    <string>onboard-1</string>
-                    <key>igfxfw</key>
-                    <data>AgAAAA==</data>
                     <key>model</key>
-                    <string>Intel UHD Graphics 620</string>
+                    <string>Intel UHD Graphics 630</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -452,17 +392,17 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>itlwm.kext</string>
+                    <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.0 | itlwm.kext</string>
+                    <string>V1.9.5 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/itlwm</string>
+                    <string>Contents/MacOS/AppleALC</string>
                     <key>MaxKernel</key>
-                    <string>25.99.99</string>
+                    <string></string>
                     <key>MinKernel</key>
-                    <string>25.0.0</string>
+                    <string></string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -532,9 +472,9 @@
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AMFIPass</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>24.99.99</string>
                     <key>MinKernel</key>
-                    <string></string>
+                    <string>24.0.0</string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -560,31 +500,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>RestrictEvents.kext</string>
+                    <string>itlwm.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.6</string>
+                    <string>V2.3.0 | itlwm.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/RestrictEvents</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>AppleALC.kext</string>
-                    <key>Comment</key>
-                    <string>V1.9.5 | AppleALC.kext</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AppleALC</string>
+                    <string>Contents/MacOS/itlwm</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -766,7 +688,7 @@
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooGPIO</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>24.99.99</string>
                     <key>MinKernel</key>
                     <string>24.0.0</string>
                     <key>PlistPath</key>
@@ -784,7 +706,7 @@
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooI2CServices</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>24.99.99</string>
                     <key>MinKernel</key>
                     <string>24.0.0</string>
                     <key>PlistPath</key>
@@ -820,7 +742,7 @@
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooI2C</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>24.99.99</string>
                     <key>MinKernel</key>
                     <string>24.0.0</string>
                     <key>PlistPath</key>
@@ -838,7 +760,7 @@
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooI2CHID</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>24.99.99</string>
                     <key>MinKernel</key>
                     <string>24.0.0</string>
                     <key>PlistPath</key>
@@ -856,7 +778,7 @@
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelBTPatcher</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>24.99.99</string>
                     <key>MinKernel</key>
                     <string>24.0.0</string>
                     <key>PlistPath</key>
@@ -874,7 +796,7 @@
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelBluetoothFirmware</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>24.99.99</string>
                     <key>MinKernel</key>
                     <string>24.0.0</string>
                     <key>PlistPath</key>
@@ -886,13 +808,13 @@
                     <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.7.1 | BlueToolFixup.kext</string>
+                    <string>V2.6.9 | BlueToolFixup.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BlueToolFixup</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>24.99.99</string>
                     <key>MinKernel</key>
                     <string>24.0.0</string>
                     <key>PlistPath</key>
@@ -910,7 +832,7 @@
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/SimpleMSR</string>
                     <key>MaxKernel</key>
-                    <string></string>
+                    <string>24.99.99</string>
                     <key>MinKernel</key>
                     <string>24.0.0</string>
                     <key>PlistPath</key>
@@ -1322,7 +1244,7 @@
                 <key>CustomSMBIOSGuid</key>
                 <true/>
                 <key>DisableIoMapper</key>
-                <true/>
+                <false/>
                 <key>DisableIoMapperMapping</key>
                 <false/>
                 <key>DisableLinkeditJettison</key>
@@ -1454,7 +1376,7 @@
                 <key>AuthRestart</key>
                 <false/>
                 <key>BlacklistAppleUpdate</key>
-                <false/>
+                <true/>
                 <key>DmgLoading</key>
                 <string>Signed</string>
                 <key>EnablePassword</key>
@@ -1633,8 +1555,6 @@
                 </dict>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <dict>
-                    <key>revpatch</key>
-                    <string>sbvmm,cpuname,memtab</string>
                     <key>rtc-blacklist</key>
                     <data></data>
                 </dict>
@@ -1651,7 +1571,7 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>-v unfairvga=7 igfxonln=1 keepsyms=1 hbfx-ahbm=55 debug=0x100 rtcfx_exclude=80-AB</string>
+                    <string>-v keepsyms=1 hbfx-ahbm=55 debug=0x100 rtcfx_exclude=80-AB igfxonln=1</string>
                     <key>csr-active-config</key>
                     <data>AwgAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1669,8 +1589,6 @@
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <array>
                     <string>rtc-blacklist</string>
-                    <string>OCLP-Settings</string>
-                    <string>revpatch</string>
                 </array>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <array>
